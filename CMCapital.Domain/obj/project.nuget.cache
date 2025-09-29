@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrkVOSx9riw=",
+  "dgSpecHash": "Z6bMIi2/WxU=",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\CMCapital.Domain.csproj",
+  "projectFilePath": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Domain\\CMCapital.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMCapital.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5541698cd4eb2a0ffe4959187a789b472095513f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16cf385820e3aaef7983ad73a810d4fcc9c67266")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMCapital.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMCapital.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "1sjFMZAkAMs=",
+  "dgSpecHash": "O0XJwbO4tCI=",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\CMCapital.Application.csproj",
+  "projectFilePath": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\CMCapital.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.14.0\\system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512",
-    "C:\\Users\\Michel\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.14.0\\system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512",
+    "C:\\Users\\LcSol\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
