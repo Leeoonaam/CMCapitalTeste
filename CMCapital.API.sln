@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCapital.API", "CMCapital.API\CMCapital.API.csproj", "{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCapital.Domain", "CMCapital.Domain\CMCapital.Domain.csproj", "{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCapital.Persistence", "CMCapital.Persistence\CMCapital.Persistence.csproj", "{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMCapitalTestes", "CMCapitalTestes\CMCapitalTestes.csproj", "{4A1BFA89-AC57-4028-B841-715297567C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1BFA89-AC57-4028-B841-715297567C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1BFA89-AC57-4028-B841-715297567C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1BFA89-AC57-4028-B841-715297567C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1BFA89-AC57-4028-B841-715297567C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

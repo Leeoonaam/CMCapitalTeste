@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="8.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.9" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMCapital.API\CMCapital.API.csproj" />
+    <ProjectReference Include="..\CMCapital.Application\CMCapital.Application.csproj" />
+    <ProjectReference Include="..\CMCapital.Domain\CMCapital.Domain.csproj" />
+    <ProjectReference Include="..\CMCapital.Persistence\CMCapital.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
