@@ -24,42 +24,6 @@ namespace CMCapital.Application.Services
             _clienteRepository = clienteRepository;
         }
 
-        public async Task<BaseResponse> Listar()
-        {
-            try
-            {
-                var clientes = await _vendaRepository.BuscarTodos();
-
-                var resultado = clientes?.Select(c => new ClienteResponse
-                {
-                    ClienteId = c.ClienteId,
-                    Nome = c.Nome,
-                    SaldoDisponivel = c.SaldoDisponivel,
-                    DataCadastro = c.DthInsert,
-                }).ToList();
-
-                var mapeamentoHeaders = new Dictionary<string, string>
-                {
-                    { "ClienteId", "ID" },
-                    { "Nome", "Nome" },
-                    { "SaldoDisponivel", "Saldo Disponível" },
-                    { "DataCadastro", "Data de Cadastro" },
-                };
-
-                var tabelaDinamica = TabelaUtils.ConstruirTabelaDinamica(resultado!, mapeamentoHeaders);
-
-                tabelaDinamica.Colunas!.First(c => c.Field == "ClienteId").Oculto = true;
-                tabelaDinamica.Colunas!.First(c => c.Field == "DataCadastro").EhDateTime = true;
-                tabelaDinamica.Colunas!.First(c => c.Field == "DataCadastro").EhMoeda = true;
-
-                return new BaseResponse() { Status = true, Resultado = tabelaDinamica };
-
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace };
-            }
-        }
         public async Task<BaseResponse> Incluir(AdicionarVendaRequest model)
         {
             try
@@ -90,6 +54,11 @@ namespace CMCapital.Application.Services
             {
                 return new BaseResponse() { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace };
             }
+        }
+
+        public Task<BaseResponse> Listar()
+        {
+            throw new NotImplementedException();
         }
     }
 }
