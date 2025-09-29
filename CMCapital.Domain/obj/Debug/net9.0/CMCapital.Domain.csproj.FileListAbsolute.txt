@@ -1,0 +1,11 @@
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.deps.json
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\refint\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\ref\CMCapital.Domain.dll

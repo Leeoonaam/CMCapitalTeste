@@ -1,0 +1,15 @@
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.deps.json
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.pdb
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.AssemblyInfoInputs.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.AssemblyInfo.cs
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\refint\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.pdb
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\ref\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.csproj.AssemblyReference.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapita.D55E3B02.Up2Date
