@@ -49,33 +49,6 @@ namespace CMCapital.API.Controllers
             }
         }
 
-        [HttpPost("Alterar")]
-        [Authorize(Roles = RolesAuthorize.UsuarioRole)]
-        public async Task<IActionResult> Alterar([FromBody] AlterarClienteRequest model)
-        {
-            try
-            {
-                return Ok(await _vendaService.Alterar(model));
-            }
-            catch (Exception ex)
-            {
-                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
-            }
-        }
-
-        [HttpPost("Deletar")]
-        [Authorize(Roles = RolesAuthorize.UsuarioRole)]
-        public async Task<IActionResult> Deletar([FromBody] DeletarClienteRequest model)
-        {
-            try
-            {
-                return Ok(await _vendaService.Deletar(model));
-            }
-            catch (Exception ex)
-            {
-                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
-            }
-        }
 
     }
 }
