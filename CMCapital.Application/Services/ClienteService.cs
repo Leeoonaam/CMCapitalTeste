@@ -6,6 +6,7 @@ using CMCapital.Application.Interfaces;
 using CMCapital.Application.Utils;
 using CMCapital.Domain.Entities;
 using CMCapital.Domain.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace CMCapital.Application.Services
 {
@@ -14,7 +15,7 @@ namespace CMCapital.Application.Services
         private readonly IClienteRepository _clienteoRepository;
 
         public ClienteService(IClienteRepository clienteoRepository,
-            SessaoUsuario sessaoUsuario) : base(sessaoUsuario)
+            SessaoUsuario sessaoUsuario, ILogger logger) : base(sessaoUsuario, logger)
         {
             _clienteoRepository = clienteoRepository;
         }
@@ -52,7 +53,8 @@ namespace CMCapital.Application.Services
             }
             catch (Exception ex)
             {
-                return new BaseResponse { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace };
+                _logger.LogError(ex, "Erro ao Listar Clientes.", ex.StackTrace);
+                return new BaseResponse { Status = false, Mensagem = "Erro ao Listar Clientes." };
             }
         }
         public async Task<BaseResponse> Incluir(AdicionarClienteRequest model)
@@ -65,6 +67,9 @@ namespace CMCapital.Application.Services
                 var existe = await _clienteoRepository.BuscarPorNome(model.Nome);
                 if (existe != null)
                 {
+                    if (existe.DthDelete == null)
+                        return new BaseResponse() { Status = false, Mensagem = "Já existe um cliente cadastrado com esse nome!" };
+
                     existe.Nome = model.Nome;
                     existe.DthDelete = null;
                     existe.UsuarioIdDelete = null;
@@ -96,7 +101,8 @@ namespace CMCapital.Application.Services
             }
             catch (Exception ex)
             {
-                return new BaseResponse() { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace };
+                _logger.LogError(ex, "Erro ao incluir Cliente.", ex.StackTrace);
+                return new BaseResponse() { Status = false, Mensagem = "Erro ao incluir Cliente." };
             }
         }
         public async Task<BaseResponse> Alterar(AlterarClienteRequest model)

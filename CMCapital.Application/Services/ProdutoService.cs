@@ -6,6 +6,7 @@ using CMCapital.Application.Utils;
 using CMCapital.Domain.Entities;
 using CMCapital.Domain.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System.Reflection;
 
 namespace CMCapital.Application.Services
@@ -15,7 +16,7 @@ namespace CMCapital.Application.Services
         private readonly IProdutoRepository _ProdutoRepository;
 
         public ProdutoService(IProdutoRepository ProdutooRepository,
-            SessaoUsuario sessaoUsuario) : base(sessaoUsuario)
+            SessaoUsuario sessaoUsuario, ILogger logger) : base(sessaoUsuario, logger)
         {
             _ProdutoRepository = ProdutooRepository;
         }
@@ -41,6 +42,7 @@ namespace CMCapital.Application.Services
             }
             catch (Exception ex)
             {
+                
                 return new BaseResponse() { Status = false, Mensagem = "Ocorreu um erro ao listar produtos!" };
             }
         }
@@ -49,15 +51,15 @@ namespace CMCapital.Application.Services
         {
             try
             {
-                var existeProduto = await _ProdutoRepository.BuscarUmPorNome(model.nome);
+                var existeProduto = await _ProdutoRepository.BuscarUmPorNome(model.Nome);
 
                 if (existeProduto != null)
                 {
                     if (existeProduto.DthDelete == null)
                         return new BaseResponse() { Status = false, Mensagem = "Já existe um produto cadastrado com esse nome!" };
 
-                    existeProduto.Quantidade = model.quantidade;
-                    existeProduto.Preco = model.preco;
+                    existeProduto.Quantidade = model.Quantidade;
+                    existeProduto.Preco = model.Preco;
                     existeProduto.DthDelete = null;
                     existeProduto.UsuarioIdDelete = null;
                     existeProduto.UsuarioIdUpdate = _sessaoUsuario.GetId();
@@ -77,9 +79,9 @@ namespace CMCapital.Application.Services
 
                 var novoProduto = new TblProduto()
                 {
-                    Nome = model.nome,
-                    Preco = model.preco,
-                    Quantidade = model.quantidade,
+                    Nome = model.Nome,
+                    Preco = model.Preco,
+                    Quantidade = model.Quantidade,
                     UsuarioIdInsert = _sessaoUsuario.GetId(),
                     DthInsert = DateTime.Now
                 };
@@ -105,13 +107,13 @@ namespace CMCapital.Application.Services
         {
             try
             {
-                var existeProduto = await _ProdutoRepository.BuscarUmPorNome(model.nome);
+                var existeProduto = await _ProdutoRepository.BuscarUmPorNome(model.Nome);
 
                 if (existeProduto == null)
                     return new BaseResponse() { Status = false, Mensagem = "Produto não encontrado!" };
 
-                existeProduto.Quantidade = model.quantidade;
-                existeProduto.Preco = model.preco;
+                existeProduto.Quantidade = model.Quantidade;
+                existeProduto.Preco = model.Preco;
                 existeProduto.DthDelete = null;
                 existeProduto.UsuarioIdDelete = null;
                 existeProduto.UsuarioIdUpdate = _sessaoUsuario.GetId();

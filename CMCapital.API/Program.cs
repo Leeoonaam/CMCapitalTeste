@@ -64,6 +64,9 @@ builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 
+builder.Services.AddScoped<IVendaService, VendaService>();
+builder.Services.AddScoped<IVendaRepository, VendaRepository>();
+
 
 #region - Produto
 builder.Services.AddScoped<IProdutoService, ProdutoService>();

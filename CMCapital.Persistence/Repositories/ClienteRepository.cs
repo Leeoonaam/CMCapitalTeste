@@ -44,7 +44,7 @@ namespace CMCapital.Persistence.Repositories
         {
             try
             {
-                return await _context.TblClientes.FirstOrDefaultAsync(c => c.DthDelete == null && c.Nome == nome);
+                return await _context.TblClientes.FirstOrDefaultAsync(c => c.Nome == nome);
             }
             catch (Exception ex)
             {

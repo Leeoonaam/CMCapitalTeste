@@ -4,6 +4,7 @@ using CMCapital.Application.Interfaces;
 using CMCapital.Application.Utils;
 using CMCapital.Domain.Interfaces;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace CMCapital.Application.Services
 {
@@ -15,7 +16,7 @@ namespace CMCapital.Application.Services
         public AcessoService(
             SessaoUsuario sessaoUsuario,
             IConfiguration configuracao,
-            IUsuarioRepository usuarioRepository) : base(sessaoUsuario)
+            IUsuarioRepository usuarioRepository, ILogger logger) : base(sessaoUsuario, logger)
         {
             _hash = configuracao["Hash"]!;
             _usuarioRepository = usuarioRepository;
@@ -56,7 +57,8 @@ namespace CMCapital.Application.Services
             }
             catch (Exception ex)
             {
-                return new BaseResponse() { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace };
+                _logger.LogError(ex, "Erro ao realizar Login.", ex.StackTrace);
+                return new BaseResponse() { Status = false, Mensagem = "Erro ao realizar Login." };
             }
         }
     }

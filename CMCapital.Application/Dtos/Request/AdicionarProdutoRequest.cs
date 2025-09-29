@@ -8,8 +8,8 @@ namespace CMCapital.Application.Dtos.Request
 {
     public class AdicionarProdutoRequest
     {
-        public string nome { get; set; }
-        public decimal preco { get; set; }
-        public int quantidade { get; set; }
+        public required string Nome { get; set; }
+        public required decimal Preco { get; set; }
+        public required int Quantidade { get; set; }
     }
 }

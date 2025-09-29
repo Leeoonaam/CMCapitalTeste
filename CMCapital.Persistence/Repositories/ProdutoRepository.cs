@@ -17,7 +17,7 @@ namespace CMCapital.Persistence.Repositories
             _logger = logger;
         }
 
-        public async Task<List<TblProduto>> BuscarTodos()
+        public async Task<List<TblProduto>?> BuscarTodos()
         {
             try
             {
@@ -30,7 +30,7 @@ namespace CMCapital.Persistence.Repositories
             }
         }
 
-        public async Task<TblProduto> BuscarUmPorNome(string nome)
+        public async Task<TblProduto?> BuscarUmPorNome(string nome)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace CMCapital.Persistence.Repositories
             }
         }
 
-        public async Task<TblProduto> BuscarUm(int id)
+        public async Task<TblProduto?> BuscarUm(int id)
         {
             try
             {
