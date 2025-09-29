@@ -60,6 +60,12 @@ builder.Services.AddScoped<SessaoUsuario>();
 builder.Services.AddScoped<IAcessoService, AcessoService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
+
+#region - Produto
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+#endregion
+
 var key = Encoding.ASCII.GetBytes(SegurancaUtils.Secret);
 builder.Services.AddAuthentication(options =>
 {

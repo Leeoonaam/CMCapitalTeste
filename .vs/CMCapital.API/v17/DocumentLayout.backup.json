@@ -1,38 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Desenvolvimento\\CMCapital.API\\",
+  "WorkspaceRootPath": "C:\\Desenvolvimento\\CMCapitalTeste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.persistence\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|solutionrelative:cmcapital.persistence\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.application\\utils\\segurancautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\utils\\segurancautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\dtos\\request\\adicionarprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\dtos\\request\\adicionarprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\dtos\\response\\produtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\dtos\\response\\produtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.application\\utils\\criptografiautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\utils\\criptografiautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.application\\services\\acessoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\services\\acessoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\services\\acessoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.api\\controllers\\acessocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.application\\dtos\\request\\alterarprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\dtos\\request\\alterarprodutorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|solutionrelative:cmcapital.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.persistence\\context\\cmcapitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|solutionrelative:cmcapital.persistence\\context\\cmcapitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.api\\controllers\\acessocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\controllers\\acessocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|c:\\desenvolvimento\\cmcapital.api\\cmcapital.application\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E17DA99F-41D5-46B6-98AB-0EC5B7E6ED30}|CMCapital.Application\\CMCapital.Application.csproj|solutionrelative:cmcapital.application\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.persistence\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD7463CF-24BD-4E23-A6BB-2D78D2EE7D01}|CMCapital.Persistence\\CMCapital.Persistence.csproj|solutionrelative:cmcapital.persistence\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF0FE29-B0D0-45D2-B544-0E89DBB02846}|CMCapital.API\\CMCapital.API.csproj|solutionrelative:cmcapital.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.domain\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|solutionrelative:cmcapital.domain\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|c:\\desenvolvimento\\cmcapitalteste\\cmcapital.domain\\entities\\tblproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C471AC9-67A0-4AA3-9099-13F366AA1AD5}|CMCapital.Domain\\CMCapital.Domain.csproj|solutionrelative:cmcapital.domain\\entities\\tblproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,106 +78,210 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "CMCapital.API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "CMCapital.API\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AdicionarProdutoRequest.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Request\\AdicionarProdutoRequest.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Dtos\\Request\\AdicionarProdutoRequest.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Request\\AdicionarProdutoRequest.cs",
+              "RelativeToolTip": "CMCapital.Application\\Dtos\\Request\\AdicionarProdutoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:54:27.496Z",
+              "WhenOpened": "2025-09-29T17:37:56.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AcessoService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Services\\AcessoService.cs",
-              "RelativeDocumentMoniker": "CMCapital.Application\\Services\\AcessoService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Services\\AcessoService.cs",
-              "RelativeToolTip": "CMCapital.Application\\Services\\AcessoService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAhwDMAAAA4AAAAAAAAAA==",
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "CMCapital.API\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "CMCapital.API\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:52:45.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CriptografiaUtils.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Utils\\CriptografiaUtils.cs",
-              "RelativeDocumentMoniker": "CMCapital.Application\\Utils\\CriptografiaUtils.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Utils\\CriptografiaUtils.cs",
-              "RelativeToolTip": "CMCapital.Application\\Utils\\CriptografiaUtils.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAASwCsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:52:45.756Z",
+              "WhenOpened": "2025-09-29T17:05:42.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Program.cs",
-              "RelativeDocumentMoniker": "CMCapital.API\\Program.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Program.cs",
-              "RelativeToolTip": "CMCapital.API\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAEwD4AAAAwAAAAAAAAAA==",
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "CMCapital.Application\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:52:32.183Z",
+              "WhenOpened": "2025-09-29T17:04:04.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SegurancaUtils.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Utils\\SegurancaUtils.cs",
-              "RelativeDocumentMoniker": "CMCapital.Application\\Utils\\SegurancaUtils.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Utils\\SegurancaUtils.cs",
-              "RelativeToolTip": "CMCapital.Application\\Utils\\SegurancaUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABnAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Interfaces\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Interfaces\\IProdutoService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Interfaces\\IProdutoService.cs",
+              "RelativeToolTip": "CMCapital.Application\\Interfaces\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:52:14.149Z",
+              "WhenOpened": "2025-09-29T16:34:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoResponse.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Response\\ProdutoResponse.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Dtos\\Response\\ProdutoResponse.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Response\\ProdutoResponse.cs",
+              "RelativeToolTip": "CMCapital.Application\\Dtos\\Response\\ProdutoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:32:18.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\appsettings.json",
-              "RelativeDocumentMoniker": "CMCapital.API\\appsettings.json",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\appsettings.json",
-              "RelativeToolTip": "CMCapital.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-29T01:47:18.995Z",
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "CMCapital.Persistence\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "CMCapital.Persistence\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:29:04.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AcessoController.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Controllers\\AcessoController.cs",
-              "RelativeDocumentMoniker": "CMCapital.API\\Controllers\\AcessoController.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.API\\Controllers\\AcessoController.cs",
-              "RelativeToolTip": "CMCapital.API\\Controllers\\AcessoController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADgvxkAAAA0AAAAAAAAAA==",
+              "Title": "AcessoService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Services\\AcessoService.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Services\\AcessoService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Services\\AcessoService.cs",
+              "RelativeToolTip": "CMCapital.Application\\Services\\AcessoService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:43:20.188Z",
+              "WhenOpened": "2025-09-29T19:26:08.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "CMCapital.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "CMCapital.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:28:20.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Services\\ClienteService.cs",
-              "RelativeDocumentMoniker": "CMCapital.Application\\Services\\ClienteService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\CMCapital.API\\CMCapital.Application\\Services\\ClienteService.cs",
-              "RelativeToolTip": "CMCapital.Application\\Services\\ClienteService.cs",
+              "Title": "AlterarProdutoRequest.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Request\\AlterarProdutoRequest.cs",
+              "RelativeDocumentMoniker": "CMCapital.Application\\Dtos\\Request\\AlterarProdutoRequest.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Application\\Dtos\\Request\\AlterarProdutoRequest.cs",
+              "RelativeToolTip": "CMCapital.Application\\Dtos\\Request\\AlterarProdutoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:22:39.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "CMCapital.API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "CMCapital.API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:12:22.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "CMCapital.Persistence\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "CMCapital.Persistence\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:17:31.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AcessoController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\AcessoController.cs",
+              "RelativeDocumentMoniker": "CMCapital.API\\Controllers\\AcessoController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Controllers\\AcessoController.cs",
+              "RelativeToolTip": "CMCapital.API\\Controllers\\AcessoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:26:15.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CMCapitalDbContext.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Context\\CMCapitalDbContext.cs",
+              "RelativeDocumentMoniker": "CMCapital.Persistence\\Context\\CMCapitalDbContext.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Persistence\\Context\\CMCapitalDbContext.cs",
+              "RelativeToolTip": "CMCapital.Persistence\\Context\\CMCapitalDbContext.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T17:28:53.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Program.cs",
+              "RelativeDocumentMoniker": "CMCapital.API\\Program.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.API\\Program.cs",
+              "RelativeToolTip": "CMCapital.API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:34:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "CMCapital.Domain\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "CMCapital.Domain\\Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T01:36:25.373Z",
+              "WhenOpened": "2025-09-29T16:28:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TblProduto.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Entities\\TblProduto.cs",
+              "RelativeDocumentMoniker": "CMCapital.Domain\\Entities\\TblProduto.cs",
+              "ToolTip": "C:\\Desenvolvimento\\CMCapitalTeste\\CMCapital.Domain\\Entities\\TblProduto.cs",
+              "RelativeToolTip": "CMCapital.Domain\\Entities\\TblProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:28:12.412Z",
               "EditorCaption": ""
             }
           ]

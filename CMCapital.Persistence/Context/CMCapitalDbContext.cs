@@ -103,7 +103,7 @@ public partial class CMCapitalDbContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("DTH_Update");
             entity.Property(e => e.Senha)
-                .HasMaxLength(20)
+                .HasMaxLength(200)
                 .IsUnicode(false);
         });
 
