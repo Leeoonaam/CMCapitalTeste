@@ -5,7 +5,6 @@
         public required bool Status { get; set; }
         public string? Mensagem { get; set; }
         public object? Resultado { get; set; }
-        public bool SemPermissao { get; set; }
         public List<string>? Erros { get; set; }
     }
 

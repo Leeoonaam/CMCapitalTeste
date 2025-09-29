@@ -5,11 +5,9 @@ using CMCapital.Application.Dtos.Response;
 
 namespace CMCapital.Application.Interfaces
 {
-    public interface IClienteService
+    public interface IVendaService
     {
         Task<BaseResponse> Listar();
-        Task<BaseResponse> Incluir(AdicionarClienteRequest model);
-        Task<BaseResponse> Alterar(AlterarClienteRequest model);
-        Task<BaseResponse> Deletar(DeletarClienteRequest model);
+        Task<BaseResponse> Incluir(AdicionarVendaRequest model);
     }
 }

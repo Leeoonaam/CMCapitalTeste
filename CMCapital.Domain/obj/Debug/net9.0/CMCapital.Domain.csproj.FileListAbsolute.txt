@@ -9,3 +9,4 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Dom
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\refint\CMCapital.Domain.dll
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\ref\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.sourcelink.json

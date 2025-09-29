@@ -16,6 +16,30 @@ namespace CMCapital.Persistence.Repositories
             _logger = logger;
         }
 
+        public async Task<List<TblCliente>?> BuscarTodos()
+        {
+            try
+            {
+                return await _context.TblClientes.Where(c => c.DthDelete == null).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro em {ClassName}: {ErrorMessage}", this.GetType().Name, ex.Message);
+                throw new Exception(ex.InnerException?.Message ?? ex.Message, ex);
+            }
+        }
+        public async Task<TblCliente?> BuscarPorId(int clienteId)
+        {
+            try
+            {
+                return await _context.TblClientes.FirstOrDefaultAsync(c => c.DthDelete == null && c.ClienteId == clienteId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro em {ClassName}: {ErrorMessage}", this.GetType().Name, ex.Message);
+                throw new Exception(ex.InnerException?.Message ?? ex.Message, ex);
+            }
+        }
         public async Task<TblCliente?> BuscarPorNome(string nome)
         {
             try

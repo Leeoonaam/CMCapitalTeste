@@ -1,0 +1,74 @@
+# Build e dependências
+bin/
+obj/
+out/
+build/
+*.dll
+*.exe
+*.app
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+Generated_Code/
+
+# ASP.NET
+wwwroot/
+node_modules/
+dist/
+build/
+
+# Configurações de publicação
+publish/
+*.pubxml
+*.publishproj
+
+# Arquivos secretos
+appsettings.*.json
+secrets.json
+
+# Rider IDE
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Backup
+*.bak
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Docker
+**/Dockerfile.*
+docker-compose.*
+
+# Certificados
+*.pfx
+*.key
+*.crt

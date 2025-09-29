@@ -13,3 +13,4 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapita
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.dll
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapita.D55E3B02.Up2Date
+C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.sourcelink.json

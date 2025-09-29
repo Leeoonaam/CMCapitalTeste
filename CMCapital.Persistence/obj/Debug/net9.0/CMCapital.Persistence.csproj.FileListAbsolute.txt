@@ -17,3 +17,4 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\bin\Debug\net9.0\CMCapita
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapita.AB9EA74A.Up2Date
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.genruntimeconfig.cache
+C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.sourcelink.json

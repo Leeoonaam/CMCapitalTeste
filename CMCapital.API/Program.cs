@@ -60,6 +60,9 @@ builder.Services.AddScoped<SessaoUsuario>();
 builder.Services.AddScoped<IAcessoService, AcessoService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
+builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
 var key = Encoding.ASCII.GetBytes(SegurancaUtils.Secret);
 builder.Services.AddAuthentication(options =>
 {

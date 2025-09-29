@@ -174,3 +174,4 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.API\bin\Debug\net9.0\CMCapital.Domain
 C:\Desenvolvimento\CMCapital.API\CMCapital.API\bin\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Desenvolvimento\CMCapital.API\CMCapital.API\obj\Debug\net9.0\CMCapital.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Desenvolvimento\CMCapital.API\CMCapital.API\obj\Debug\net9.0\CMCapital.API.sourcelink.json

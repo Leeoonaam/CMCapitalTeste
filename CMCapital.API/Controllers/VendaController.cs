@@ -12,12 +12,12 @@ namespace CMCapital.API.Controllers
     [Authorize]
     [ApiController]
     [Route("api/[controller]")]
-    public class ClienteController : Controller
+    public class VendaController : Controller
     {
-        private readonly IClienteService _clienteService;
-        public ClienteController(IClienteService controller)
+        private readonly IVendaService _vendaService;
+        public VendaController(IVendaService controller)
         {
-            _clienteService = controller;
+            _vendaService = controller;
         }
 
         [HttpGet("Listar")]
@@ -26,26 +26,26 @@ namespace CMCapital.API.Controllers
         {
             try
             {
-                return Ok(await _clienteService.Listar());
+                return Ok(await _vendaService.Listar());
 
             }
             catch (Exception ex)
             {
-                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace });
+                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
             }
         }
 
         [HttpPost("Incluir")]
         [Authorize(Roles = RolesAuthorize.UsuarioRole)]
-        public async Task<IActionResult> Incluir([FromBody] AdicionarClienteRequest model)
+        public async Task<IActionResult> Incluir([FromBody] AdicionarVendaRequest model)
         {
             try
             {
-                return Ok(await _clienteService.Incluir(model));
+                return Ok(await _vendaService.Incluir(model));
             }
             catch (Exception ex)
             {
-                return Ok(new BaseResponse { Status = false, Mensagem = "Falha na autenticação do sistema.", Resultado = ex.Message });
+                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
             }
         }
 
@@ -55,11 +55,11 @@ namespace CMCapital.API.Controllers
         {
             try
             {
-                return Ok(await _clienteService.Alterar(model));
+                return Ok(await _vendaService.Alterar(model));
             }
             catch (Exception ex)
             {
-                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace });
+                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
             }
         }
 
@@ -69,11 +69,11 @@ namespace CMCapital.API.Controllers
         {
             try
             {
-                return Ok(await _clienteService.Deletar(model));
+                return Ok(await _vendaService.Deletar(model));
             }
             catch (Exception ex)
             {
-                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message, Resultado = ex.StackTrace });
+                return Ok(new BaseResponse { Status = false, Mensagem = ex.Message });
             }
         }
 
