@@ -60,8 +60,16 @@ builder.Services.AddScoped<SessaoUsuario>();
 builder.Services.AddScoped<IAcessoService, AcessoService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
+<<<<<<< HEAD
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+=======
+
+#region - Produto
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+#endregion
+>>>>>>> f2a6f1319ae41b33e004a7f11a5dcb9f4b92135b
 
 var key = Encoding.ASCII.GetBytes(SegurancaUtils.Secret);
 builder.Services.AddAuthentication(options =>

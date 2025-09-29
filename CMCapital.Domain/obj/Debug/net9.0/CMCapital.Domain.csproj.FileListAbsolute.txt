@@ -9,4 +9,19 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Dom
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\refint\CMCapital.Domain.dll
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\ref\CMCapital.Domain.dll
+<<<<<<< HEAD
 C:\Desenvolvimento\CMCapital.API\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.sourcelink.json
+=======
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.deps.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\bin\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.sourcelink.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\refint\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Domain\obj\Debug\net9.0\ref\CMCapital.Domain.dll
+>>>>>>> f2a6f1319ae41b33e004a7f11a5dcb9f4b92135b

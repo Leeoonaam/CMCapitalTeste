@@ -13,4 +13,23 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapita
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.dll
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapita.D55E3B02.Up2Date
+<<<<<<< HEAD
 C:\Desenvolvimento\CMCapital.API\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.sourcelink.json
+=======
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.deps.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\bin\Debug\net9.0\CMCapital.Application.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\bin\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.csproj.AssemblyReference.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.AssemblyInfoInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.AssemblyInfo.cs
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.sourcelink.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapita.D55E3B02.Up2Date
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\refint\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\CMCapital.Application.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Application\obj\Debug\net9.0\ref\CMCapital.Application.dll
+>>>>>>> f2a6f1319ae41b33e004a7f11a5dcb9f4b92135b

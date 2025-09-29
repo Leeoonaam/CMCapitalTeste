@@ -17,4 +17,27 @@ C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\bin\Debug\net9.0\CMCapita
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Domain.pdb
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapita.AB9EA74A.Up2Date
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Desenvolvimento\CMCapital.API\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.sourcelink.json
+=======
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Persistence.deps.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Persistence.runtimeconfig.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Persistence.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Persistence.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Application.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Domain.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Application.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\bin\Debug\net9.0\CMCapital.Domain.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.csproj.AssemblyReference.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.AssemblyInfoInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.AssemblyInfo.cs
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.sourcelink.json
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapita.AB9EA74A.Up2Date
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\refint\CMCapital.Persistence.dll
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.pdb
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\CMCapital.Persistence.genruntimeconfig.cache
+C:\Desenvolvimento\CMCapitalTeste\CMCapital.Persistence\obj\Debug\net9.0\ref\CMCapital.Persistence.dll
+>>>>>>> f2a6f1319ae41b33e004a7f11a5dcb9f4b92135b
